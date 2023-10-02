@@ -111,18 +111,10 @@ class Handler implements DBintHandler {
 	 * 	Collect information about class
 	 *
 	 * 	@param 	- Object to store information
-     *	@param 	- true = Provide status information only (if available)
 	 */
-	public function getInfo(XML &$xml, bool $status): void {
+	public function getInfo(XML &$xml): void {
 
     	$xml->addVar('Name', 'Improved MySQL interface handler');
-
-		$class = '\\syncgw\\interface\\mysql\\Admin';
-		$class = $class::getInstance();
-		$class->getInfo($xml, $status);
-
-		if (!$status)
-			return;
 
 		$xml->addVar('Opt', 'Status');
 		$cnf = Config::getInstance();
