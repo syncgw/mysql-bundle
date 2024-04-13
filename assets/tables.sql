@@ -3,7 +3,7 @@
 --
 --	@package	sync*gw
 --	@subpackage	mySQLi handler
---	@copyright	(c) 2008 - 2023 Florian Daeumling, Germany. All right reserved
+--	@copyright	(c) 2008 - 2024 Florian Daeumling, Germany. All right reserved
 -- 	@license 	LGPL-3.0-or-later
 --
 
