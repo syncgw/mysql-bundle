@@ -439,12 +439,12 @@ class Handler implements DBintHandler {
 					if ($cnt--) {
 
 						Util::Sleep(300);
-						Log::getInstance()->logMsg(Log::DEBUG, 20103, $msg);
+						Log::getInstance()->logMsg(Log::DEBUG, 20103, $smsg);
 					}
 				} else {
 
 					$cnt = 0;
-					Log::getInstance()->logMsg(Log::ERR, 20102, $msg);
+					Log::getInstance()->logMsg(Log::ERR, 20102, $smsg);
 					foreach (ErrorHandler::Stack() as $rec)
 						Log::getInstance()->logMsg(Log::DEBUG, 11601, $rec);
 

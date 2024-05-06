@@ -170,7 +170,7 @@ class Admin implements DBAdmin {
 		$db = Handler::getInstance();
 
 		if (!$cmds)
-			$cmds = self::loadSQL('assets/mysql/tables.sql');
+			$cmds = self::loadSQL(__DIR__.'/../assets/tables.sql');
 
 		$gui->clearAjax();
 
@@ -208,7 +208,7 @@ class Admin implements DBAdmin {
 		$db = Handler::getInstance();
 
 		if (!$cmds)
-			$cmds = self::loadSQL('assets/mysql/tables.sql');
+			$cmds = self::loadSQL(__DIR__.'/../assets/tables.sql');
 
 		$gui->clearAjax();
 
