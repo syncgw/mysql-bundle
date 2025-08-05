@@ -6,7 +6,7 @@ declare(strict_types=1);
  *
  *	@package	sync*gw
  *	@subpackage	mySQL handler
- *	@copyright	(c) 2008 - 2024 Florian Daeumling, Germany. All right reserved
+ *	@copyright	(c) 2008 - 2025 Florian Daeumling, Germany. All right reserved
  * 	@license 	LGPL-3.0-or-later
  */
 
@@ -394,8 +394,6 @@ class Handler implements DBintHandler {
 	 * 	@return	- String or []; null=Error
 	 */
 	private function _query(int $hid, int $cmd, string $qry) {
-
-		$msg = Log::getInstance();
 
 		$dmsg = ($cmd ? DB::OPS[$cmd] : 'SQL').': '.preg_replace('/(?<=<syncgw>).*(?=<\/syncgw>)/', 'XML-Data', $qry);
 
