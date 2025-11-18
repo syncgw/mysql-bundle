@@ -161,7 +161,7 @@ class Admin implements DBAdmin {
 	 * 	@param	- Optional SQL commands
 	 * 	@return	- true=Ok; false=Error
 	 */
-	public function mkTable(array $cmds = null): bool {
+	public function mkTable(?array $cmds = null): bool {
 
 		$gui = guiHandler::getInstance();
 		$cnf = Config::getInstance();
@@ -199,7 +199,7 @@ class Admin implements DBAdmin {
 	 * 	@param	- Optional SQL commands
 	 * 	@return	- true=Ok; false=Error
 	 */
-	public function delTable(array $cmds = null): bool {
+	public function delTable(?array $cmds = null): bool {
 
 		$gui = guiHandler::getInstance();
 		$cnf = Config::getInstance();

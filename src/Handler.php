@@ -149,7 +149,7 @@ class Handler implements DBintHandler {
 	 * 			  DataStore::GRPS	  [ "GUID" => Typ of record ]<br>
 	 * 			  DataStore::RNOK     [ "GUID" => Typ of record ]
 	 */
-	public function Query(int $hid, int $cmd, $parm = null) {
+	public function Query(int $hid, int $cmd, mixed $parm = null) {
 
 		$log = Log::getInstance();
 
