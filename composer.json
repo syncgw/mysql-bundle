@@ -1,18 +1,18 @@
 {
 	"name" : "syncgw/mysql-bundle",
-	"description" : "sync•gw MySQL bundle.",
-	"license": "LGPL-3.0-or-later",
-    "repositories" : [{
-            "type" : "composer",
-            "url" : "https://repo.packagist.org"
-    	}
-    ],
+	"description" : "sync*gw MySQL bundle.",
+	"license" : "LGPL-3.0-or-later",
+	"repositories" : [{
+			"type" : "composer",
+			"url" : "https://repo.packagist.org"
+		}
+	],
 	"type" : "syncgw-bundle",
 	"homepage" : "https://github.com/syncgw/mysql-bundle",
 	"authors" : [{
 			"name" : "Florian Däumling",
 			"homepage" : "https://github.com/toteph42",
-            "role" : "Developer"
+			"role" : "Developer"
 		}
 	],
 	"funding" : [{
