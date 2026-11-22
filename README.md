@@ -7,10 +7,12 @@
 **sync•gw** is the one and only fully portable server software available providing synchronization service between nearly any mobile device and your web server.
 
 ## MySQL bundle for sync•gw ##
+
 **sync•gw** requires an interface bundle to store and handle data during synchronization. 
 This data base handler is useful when you want to synchronize data between devices and you does not have any server application running.
 
 ## Installation ##
+
 To install the **sync•gw mysql bundle** please go to your web server base directory and enter
 
 ```bash
@@ -18,7 +20,8 @@ composer require syncgw/mysql-bundle
 ```
 
 ## License ##
-This plugin is released under the [GNU General Public License v3.0](./LICENSE).
+
+This software is released under the [GNU General Public License v3.0](https://www.gnu.org/licenses/gpl-3.0.en.html).
 
 ## Donation ##
 
